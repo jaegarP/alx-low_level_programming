@@ -1,11 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 /**
  * main - Positive anything is better than negative nothing
+ * @n - The andom number to be generated
  *
  * Return: Always 0 (Success)
  */
@@ -24,6 +22,5 @@ int main(void)
 	else {
 	  printf ("%d is negative\n", n);
 	}
-	/* your code goes there */
 	return (0);
 }
