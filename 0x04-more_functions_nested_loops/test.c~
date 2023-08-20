@@ -1,0 +1,21 @@
+#include "main.h"
+
+void print_diagonal(int n)
+{
+  int f, l;
+
+  if (n != 0 && n !< 0)
+    {
+      while (f = 0; f < n; f++)
+	{
+	  _putchar ('\')
+	}
+
+    }
+  else
+    {
+      _putchar (\n);
+    }
+
+  
+}
