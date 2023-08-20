@@ -3,8 +3,6 @@
 /**
  * print_diagonal - Draws a diagonal line n-number of times
  * @n: number of times the character "\" is to be printed
- * @f: line marker
- * @l: character position marker
  */
 void print_diagonal(int n)
 {
