@@ -1,21 +1,44 @@
 #include "main.h"
 
-void print_diagonal(int n)
-{
-  int f, l;
+/**
+ * print_square - function that pents a size x size square
+ * @size: size of square
+ */
 
-  if (n != 0 && n !< 0)
-    {
-      while (f = 0; f < n; f++)
+void print_square(int size)
+{
+	int line, posit;
+
+	if (size != 0 && size > 0)
 	{
-	  _putchar ('\')
+		line = 0;
+		while (line < size)
+		{
+			posit = 0;
+			while (posit < size)
+			{
+				_putchar ('#');
+				posit++;
+			}
+			_putchar ('\n');
+			line++;
+		}
+
+
+
+
+	}
+	else
+	{
+		_putchar ('\n')
+
 	}
 
-    }
-  else
-    {
-      _putchar (\n);
-    }
 
-  
+
+
+
+
+
+
 }
