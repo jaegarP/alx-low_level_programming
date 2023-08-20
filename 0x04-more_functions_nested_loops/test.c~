@@ -1,44 +1,30 @@
 #include "main.h"
 
 /**
- * print_square - function that pents a size x size square
- * @size: size of square
+ * fizzbuzz - prints fizzbuzz based on multiple
  */
-
-void print_square(int size)
+void fizz_buzz()
 {
-	int line, posit;
-
-	if (size != 0 && size > 0)
+	int i;
+	char p;
+	for (i = 1; i <= 100; i++)
 	{
-		line = 0;
-		while (line < size)
+		if (i % 3 == 0)
 		{
-			posit = 0;
-			while (posit < size)
-			{
-				_putchar ('#');
-				posit++;
-			}
-			_putchar ('\n');
-			line++;
+			p = "Fizz"
 		}
-
-
-
-
+		else if (i % 5 == 0)
+		{
+			p = "Buzz"
+		}
+		else if (i % 3 == 0 && i % 5 == 0)
+		{
+			p = "FizzBuzz"
+		}
+		else
+		{
+			p = i + '0'
+		}
+		printf("%c ", p)
 	}
-	else
-	{
-		_putchar ('\n')
-
-	}
-
-
-
-
-
-
-
-
 }
