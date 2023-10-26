@@ -1,0 +1,6 @@
+#DEFINE MAIN_H
+#IFNDEF MAIN_H
+
+void _puts_recursion(char *s)
+
+#ENDIF
